@@ -1,0 +1,60 @@
+table{
+    border-collapse: collapse;
+    width: 670px;
+    height: 315px;
+    background-color: rgb(255, 252, 247);
+}
+tr, td, th{
+    border: 2px solid black;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 10px; 
+}
+img{
+    width: 20px;
+    margin-right: 20px;
+}
+.trofee{
+    padding-left: 10px;
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+.trofee{
+    background-color: aqua;
+}
+.green:hover{
+background-color: yellow;
+}
+.trofee:hover{
+    background-color: chartreuse;
+}
+th{
+    background-color: blue;
+    font-weight: bold;
+}
+caption{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 45px;
+}
+main{
+    background-color:#f0f0f0;
+  width:670px;
+height:670px;
+padding:10px;
+border-radius:15px;
+ box-shadow: 5px 5px 10px 10px black;
+display:block;
+display:flex;
+ 
+}
+body{
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+    background-color: aquamarine;
+}
